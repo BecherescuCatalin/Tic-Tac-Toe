@@ -1,0 +1,132 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  background-color: rgb(218, 206, 27);
+}
+.container {
+  padding: 10px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  background-image: linear-gradient(greenyellow, rgb(236, 101, 110));
+}
+
+.players,
+.xplayer,
+.oplayer,
+.xscore,
+.oscore {
+  padding: 10px;
+  margin: 2px;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.xplayer {
+  width: 18%;
+  background-color: rgb(253, 253, 253);
+  border-radius: 20px;
+}
+.oplayer {
+  width: 18%;
+  background-color: rgb(253, 253, 253);
+  border-radius: 20px;
+}
+
+.active {
+  width: 20%;
+  background-color: rgb(236, 101, 110);
+}
+
+.win {
+  background-color: greenyellow;
+  width: 20%;
+}
+
+.gameboard,
+.cell {
+  border: 2px solid rgb(236, 101, 110);
+  padding: 10px;
+}
+
+.gameboard {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 27%;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  font-size: xx-large;
+  padding: 5px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.scores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.xscore {
+  width: 20%;
+  background-color: rgb(253, 253, 253);
+  border-radius: 20px;
+  text-align: center;
+}
+.oscore {
+  width: 20%;
+  background-color: rgb(253, 253, 253);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.btn {
+  position: relative;
+  top: 20px;
+  left: 25%;
+  width: 50%;
+  height: 50px;
+  font-size: x-large;
+  border-radius: 20px;
+  background-color: greenyellow;
+  color: red;
+  border: none;
+}
+
+.hide {
+  display: none;
+}
+
+.music {
+  width: 40%;
+  margin-left: 29%;
+  display: flex;
+  justify-content: center;
+}
+.play,
+.stop {
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 7px;
+  border-radius: 20%;
+  border: none;
+  background-color: rgb(253, 253, 253);
+}
+
+.a {
+  background-color: rgb(236, 101, 110);
+}

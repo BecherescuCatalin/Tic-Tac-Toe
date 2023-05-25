@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="players">
+        <div class="xplayer">X player</div>
+        <div class="oplayer">0 player</div>
+      </div>
+      <div class="gameboard">
+        <div class="cell" id="0"></div>
+        <div class="cell" id="1"></div>
+        <div class="cell" id="2"></div>
+        <div class="cell" id="3"></div>
+        <div class="cell" id="4"></div>
+        <div class="cell" id="5"></div>
+        <div class="cell" id="6"></div>
+        <div class="cell" id="7"></div>
+        <div class="cell" id="8"></div>
+      </div>
+      <div class="scores">
+        <div class="xscore">X score :</div>
+        <div class="oscore">0 score :</div>
+      </div>
+      <div class="music">
+        <button onclick="playAudio()" type="button" class="play">🔊</button>
+        <button onclick="pauseAudio()" type="button" class="stop">🔇</button>
+        <audio id="audio" loop>
+          <source src="title.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+      <button class="btn">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
